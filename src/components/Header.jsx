@@ -137,12 +137,12 @@ export default function Header({
         </div>
 
         {/* Profile / Avatar Placeholder */}
-        <div className="header__profile" title="Alex Morgan - Senior Frontend Engineer">
+        <div className="header__profile" title="Jayasimha Reddy - Senior Frontend Engineer">
           <div className="avatar-chip">
-            <span className="avatar-initials">AM</span>
+            <span className="avatar-initials">JR</span>
           </div>
           <div className="profile-info hide-on-tablet">
-            <span className="profile-name">Alex Morgan</span>
+            <span className="profile-name">Jayasimha Reddy</span>
             <span className="profile-role">Frontend Lead</span>
           </div>
         </div>
