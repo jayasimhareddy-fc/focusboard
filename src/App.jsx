@@ -328,6 +328,11 @@ export default function App() {
           {/* Dashboard Top Section: Stat Cards & Progress Overview */}
           {activeNav === 'dashboard' && (
             <section className="overview-section" aria-label="Dashboard Statistics Overview">
+              <div className="dashboard-welcome-banner">
+                <h2 className="dashboard-welcome-title">Welcome back, Jayasimha! 👋</h2>
+                <p className="dashboard-welcome-desc">Here is your daily productivity and sprint status.</p>
+              </div>
+
               <div className="stats-grid">
                 <StatCard
                   title="Total Tasks"

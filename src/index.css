@@ -1903,6 +1903,34 @@ a {
 }
 
 /* ==========================================================================
+   Dashboard Welcome Banner (Mobile & Responsive)
+   ========================================================================== */
+.dashboard-welcome-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: -0.25rem;
+}
+
+.dashboard-welcome-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.02em;
+}
+
+.dashboard-welcome-desc {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+@media (min-width: 769px) {
+  .dashboard-welcome-banner {
+    display: none;
+  }
+}
+
+/* ==========================================================================
    Responsive Breakpoints & Media Queries
    ========================================================================== */
 
@@ -1949,6 +1977,10 @@ a {
     display: flex;
   }
 
+  .header__subtitle {
+    display: none;
+  }
+
   .hide-on-tablet {
     display: none;
   }
@@ -1984,12 +2016,34 @@ a {
 /* Mobile (max-width: 480px / 390px) */
 @media (max-width: 480px) {
   .header {
-    padding: 0 1rem;
-    height: 64px;
+    padding: 0 0.875rem;
+    height: 60px;
+  }
+
+  .header__left {
+    gap: 0.625rem;
+    min-width: 0;
+    flex: 1;
+  }
+
+  .header__headings {
+    min-width: 0;
   }
 
   .header__title {
-    font-size: 1.0625rem;
+    font-size: 1.125rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .header__subtitle {
+    display: none;
+  }
+
+  .header__right {
+    gap: 0.5rem;
+    flex-shrink: 0;
   }
 
   .header__date-chip {
@@ -1998,6 +2052,26 @@ a {
 
   .header__add-btn span {
     display: none;
+  }
+
+  .header__add-btn {
+    padding: 0.4375rem 0.625rem;
+  }
+
+  .icon-btn {
+    width: 36px;
+    height: 36px;
+  }
+
+  .avatar-chip {
+    width: 34px;
+    height: 34px;
+    font-size: 0.8125rem;
+  }
+
+  .content-container {
+    padding: 1rem 0.875rem 3rem;
+    gap: 1.25rem;
   }
 
   .stats-grid {

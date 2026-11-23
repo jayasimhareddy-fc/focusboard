@@ -8,7 +8,7 @@ FocusBoard is a modern, high-performance, responsive productivity dashboard buil
 
 ## Live Links & Repository
 
-- **Live Application Demo:** [https://focusboard-demo.vercel.app](https://focusboard-demo.vercel.app) *(Deploy preview placeholder)*
+- **Live Application Demo:** [https://focus-board-roan.vercel.app](https://focus-board-roan.vercel.app)
 - **GitHub Repository:** [https://github.com/jayasimhareddy-fc/focusboard](https://github.com/jayasimhareddy-fc/focusboard)
 
 ---
